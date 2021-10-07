@@ -31,6 +31,7 @@ header {
   z-index: 2;
   width: 100%;
   height: 100%;
+  padding-top: 51px;
   background-color: #3c3a39;
   position: fixed;
   top: 0;
@@ -59,7 +60,13 @@ header {
   font-size: 32px;
   line-height: 30px;
   color: #fff5e1;
+  display: flex;
+}
+
+.border-btm {
   border-bottom: 1px solid #fff5e1;
+  width: 150%;
+  padding-top: 8px;
 }
 
 #desktop-nav,
