@@ -27,7 +27,50 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+.mobile-nav {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding-top: 51px;
+  background-color: #3c3a39;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.change {
+  right: 0;
+}
+
+.close {
+  position: absolute;
+  left: 89%;
+  top: 3%;
+  cursor: pointer;
+}
+
+.nav-item {
+  margin: 30px;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: #fff5e1;
+  display: flex;
+}
+
+.border-btm {
+  border-bottom: 1px solid #fff5e1;
+  width: 150%;
+  padding-top: 8px;
+}
+
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
